@@ -11,7 +11,7 @@ const TodoList = ({todos,deleteTodo,toggleTodo})=>{
                         <p style={{textDecoration : todo.completed ? "line-through" : ""}}>{todo.task}</p>
                         <div style={{display:"flex",gap:10}}>
                         <button onClick={() => deleteTodo(index)}>Delete</button>
-                        <button onClick={() => toggleTodo(index)}>Toggle</button>
+                      
                         </div>
                         </li>
                     )
