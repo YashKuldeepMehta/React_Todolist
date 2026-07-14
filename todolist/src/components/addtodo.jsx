@@ -21,5 +21,3 @@ const Addtodo = ({addTodo})=>{
         </>
     )
 }
-
-export default Addtodo;
